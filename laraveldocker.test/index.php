@@ -15,7 +15,7 @@ echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
 $servername = "192.168.0.181";
 $username = "root";
-$password = "Senha123";
+$password = "Secret";
 $database = "MeuBanco";
 
 // Criar conexão
