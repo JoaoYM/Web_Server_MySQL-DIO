@@ -1,0 +1,13 @@
+create database MeuBanco;
+
+use MeuBanco;
+
+create table Pessoas (PessoaID int, Nome varchar(50), Sobrenome varchar(50), Endereço varchar(100), Cidade varchar(50));
+
+show Pessoas;
+show databases;
+
+insert into Pessoas (PessoaID, Nome, Sobrenome, Endereço, Cidade) Values (1, 'Joao', 'Aguiar', 'Fabrica de Chocolate, 42', 'Belo Horizonte-MG');
+
+
+select * from Pessoas;
